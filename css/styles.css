@@ -220,6 +220,7 @@ body {
 
 /* -----------------------ABOUT------------------- */
 .about {
+  padding-top: 47px;
   padding-bottom: 94px;
 }
 
@@ -257,8 +258,12 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team-item:not(:last-child) {
+
+.team-item {
   background-color: var(--white-text);
+}
+
+.team-item:not(:last-child) {
   margin-right: 30px;
 }
 
