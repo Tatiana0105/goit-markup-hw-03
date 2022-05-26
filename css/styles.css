@@ -76,8 +76,7 @@ body {
 
 .header {
   background-color: var(--white-text);
-  /* padding-top: 25px;
-  padding-bottom: 25px; */
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
