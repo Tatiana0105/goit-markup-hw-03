@@ -141,19 +141,28 @@ body {
   padding-bottom: 200px;
 }
 .hero-title {
+  margin: 0 auto;
+  width: 696px;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-text);
-  margin-bottom: 30px;
 }
 
 .hero-button {
   margin: 0 auto;
   display: block;
+  border: none;
+  cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -162,8 +171,6 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--white-text);
-  border: none;
-  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -269,6 +276,7 @@ body {
 
 .team-name {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .team-job {
   font-weight: 400;
@@ -331,8 +339,7 @@ body {
 
 .portfolio-btn {
   display: block;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 22px;
   border-radius: 4px;
 
   font-family: inherit;
@@ -375,6 +382,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .portfolio-list {
